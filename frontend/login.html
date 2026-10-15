@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <h1>Expense Tracker</h1>
+        <p id="formTitle">Login to manage your expenses</p>
+
+        <form id="loginForm">
+
+            <div id="nameField" style="display: none;">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required minlength="8">
+
+            <button type="submit" id="submitButton">Login</button>
+
+        </form>
+
+        <p id="message"></p>
+
+        <p>
+            <span id="switchText">Don't have an account?</span>
+            <a href="#" id="switchMode">Register</a>
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+

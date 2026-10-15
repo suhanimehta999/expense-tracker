@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Login */
+
+.login-container {
+    width: 350px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-container input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #444;
+}
+
+
+/* Dashboard */
+
+.dashboard-container {
+    width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.dashboard-container header p {
+    color: #666;
+    margin-top: 5px;
+}
+
+
+/* Logout */
+
+#logoutBtn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    background-color: #b02a37;
+}
+
+
+/* Total */
+
+.total-box {
+    background-color: #f4f6f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.total-box h3 {
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.total-box h2 {
+    font-size: 28px;
+}
+
+
+/* Expense Form */
+
+.expense-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.expense-form h2 {
+    margin-bottom: 20px;
+}
+
+.expense-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.expense-form input,
+.expense-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.expense-form button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background-color: #222;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.expense-form button:hover {
+    background-color: #444;
+}
+
+
+/* Expense List */
+
+.expense-list {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.expense-list h2 {
+    margin-bottom: 15px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f4f6f8;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.expense-item h3 {
+    margin-bottom: 5px;
+}
+
+.expense-item p {
+    color: #666;
+    font-size: 14px;
+}
+
+.expense-item small {
+    color: #888;
+}
+
+.expense-item strong {
+    font-size: 18px;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #b02a37;
+}
